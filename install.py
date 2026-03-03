@@ -93,7 +93,7 @@ PATH_TW=PATH_IOTTESTWARE+"/iottestware."+args.protocol+"/"
 
 # Git repositories
 GIT_IOTTESTWARE = 'https://github.com/eclipse/iottestware.'+args.protocol+'.git'
-GIT_SOCKET_API = 'https://github.com/eclipse/titan.TestPorts.Common_Components.Socket-API.git'
+GIT_SOCKET_API = 'https://gitlab.eclipse.org/eclipse/titan/titan.ProtocolModules.MQTT.git'
 GIT_SOCKET_API_VERSION = '9e4ac13486f084e6eca74b976daf21b0028c44c1'
 GIT_IPL4 = 'https://github.com/eclipse/titan.TestPorts.IPL4asp.git'
 GIT_IPL4_VERSION = '8045145aa32cd4452f1acc30ade0a6ea79033bcc'
