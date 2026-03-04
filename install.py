@@ -94,14 +94,14 @@ PATH_TW=PATH_IOTTESTWARE+"/iottestware."+args.protocol+"/"
 # Git repositories
 GIT_IOTTESTWARE = 'https://github.com/eclipse/iottestware.'+args.protocol+'.git'
 GIT_SOCKET_API = 'https://gitlab.eclipse.org/eclipse/titan/titan.ProtocolModules.MQTT.git'
-GIT_SOCKET_API_VERSION = '9e4ac13486f084e6eca74b976daf21b0028c44c1'
-GIT_IPL4 = 'https://github.com/eclipse/titan.TestPorts.IPL4asp.git'
-GIT_IPL4_VERSION = '8045145aa32cd4452f1acc30ade0a6ea79033bcc'
-GIT_COMMON = 'https://github.com/eclipse/titan.ProtocolModules.COMMON.git'
-GIT_COMMON_VERSION = '9a52b8dc609e18c193fbe4619aeb52d6c94e7922'
+GIT_SOCKET_API_VERSION = '08dca6dabbd5f7ea2ab8e039ced93c7e3bae3438'
+GIT_IPL4 = 'https://gitlab.eclipse.org/eclipse/titan/titan.TestPorts.IPL4asp.git'
+GIT_IPL4_VERSION = 'a4d5c2992368bc7b702759887e54b64a44c54de0'
+GIT_COMMON = 'https://gitlab.eclipse.org/eclipse/titan/titan.ProtocolModules.COMMON.git'
+GIT_COMMON_VERSION = '7467160f763ab88e4b071dc057f58a764042e870'
 GIT_PROTOCOL = 'https://gitlab.eclipse.org/eclipse/titan/titan.ProtocolModules.'+PROTOCOL+'.git'
-GIT_TCC = 'https://github.com/eclipse/titan.Libraries.TCCUsefulFunctions.git'
-GIT_TCC_VERSION = '27f76bb794af89f5ed9088317fc2e82247667f74'
+GIT_TCC = 'https://gitlab.eclipse.org/eclipse/titan/titan.Libraries.TCCUsefulFunctions.git'
+GIT_TCC_VERSION = 'b3801bffc18d285fe541a6cf48c1193ad8472723'
 
 def install(protocol):
 
